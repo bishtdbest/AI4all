@@ -212,7 +212,7 @@ padding: 220px 0 338px 0; text-align: center; position: relative;}
 .footerBottom{display: flex; justify-content: space-between; font-size: 14px; padding-bottom: 40px;}
 .footerLinks{display: flex;}
 .footerLinks li{ padding: 0 21px; position: relative;}
-.footerLinks li::after{ position: absolute; content: ""; right: 0; top: 50%; transform: translateY(-50%); height: 10px; width: 2px; background-color: black;}
+.footerLinks li::after{ position: absolute; content: ""; right: -1px; top: 50%; transform: translateY(-50%); height: 10px; width: 1px; background-color: black;}
 .footerLinks li:last-child{padding-right: 0;}
 .footerLinks li:last-child::after{display: none;}
 .footer a:hover{ text-decoration:  underline;}
@@ -366,8 +366,8 @@ padding: 220px 0 338px 0; text-align: center; position: relative;}
     .footerRight .linkslist.smList ul li:last-child{margin-right: 0;}
     .footerRight .smList li i{width: 28px; height: 28px;}
     
-    .footerBottom{flex-direction: column; align-items: center;}
-    .footerLinks li { padding: 0 6px; font-size: 12px;}
+    .footerBottom{flex-direction: column; align-items: center; margin: 0 -15px; }
+    .footerLinks li { padding: 7px; font-size: 12px;}
 
 }
 
