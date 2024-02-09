@@ -353,7 +353,8 @@ padding: 220px 0 338px 0; text-align: center; position: relative;}
     .cardsList .cardItem{min-width: 260px; width: 32%; float: left; min-height: 130px; margin: 0 10px;}
     .contactSection .container{flex-direction: column;}
     .contactDetails,.contactForm{width: auto;}
-
+    .contactDetails{margin-bottom: 40px}
+    
     .footerMain{flex-direction: column; padding-top: 40px;}
     .footerLeft{margin-bottom: 30px;}
     .footerLeft,.footerRight{width: auto;}
